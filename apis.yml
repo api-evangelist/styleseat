@@ -1,8 +1,29 @@
 aid: styleseat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/styleseat.png
 name: Styleseat
-description: Styleseat is a company surfaced as a portfolio company of 500-global, cowboy-ventures, kindred-ventures,
-  lightspeed-venture-partners, point-nine, slow-ventures and added to the API Evangelist network as a
-  stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  StyleSeat is an online booking and business-management marketplace for beauty
+  and grooming professionals — hair stylists, barbers, nail technicians,
+  estheticians, and other independent service providers. Professionals use
+  StyleSeat to publish a bookable profile, manage their calendar and
+  appointments, accept online payments and deposits, reduce no-shows, and market
+  their services, while clients discover local pros, browse portfolios and
+  reviews, and book appointments online. Founded in 2011 and based in San
+  Francisco, StyleSeat operates as a consumer-facing web and mobile platform. It
+  currently exposes no public developer API or partner API program; this profile
+  was surfaced as a venture-portfolio company and enriched by the API Evangelist
+  pipeline with domain-security and public-property signals.
 url: https://raw.githubusercontent.com/api-evangelist/styleseat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,9 +38,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Beauty
+- Booking
+- Marketplace
+- Appointments
+- Scheduling
+- Payments
+- Small Business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +57,16 @@ maintainers:
 common:
 - type: Website
   url: https://styleseat.com
+- type: Blog
+  url: https://www.styleseat.com/blog/
+- type: Support
+  url: https://help.styleseat.com/
+- type: PrivacyPolicy
+  url: https://www.styleseat.com/privacy
+- type: DomainSecurity
+  url: security/styleseat-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
